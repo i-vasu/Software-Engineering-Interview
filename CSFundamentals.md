@@ -123,7 +123,7 @@
 
 
 ## DBMS
-## Primer 
+### Primer 
 - https://leetcode.com/discuss/explore/sql-language/2270290/Complementary-Material-SQL-Primers-(Beginner-and-Intermediate)
 
 ### Intro to DBMS
