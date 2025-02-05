@@ -1,0 +1,38 @@
+Java 8 to 17 features n updates : https://reflectoring.io/java-release-notes/
+
+Ref: grokking java intv
+
+Topics : 
+
+Basics
+  1. , Auto boxing, type safety, type casting, generics, type erasure
+OOPS
+  1. abstract class vs interface, method overriding vs method overloading, inheritance , encapsulation
+  2. Order of Execution, Parent to child referencing, method types, limitation etc, in inheritance
+Exceptions
+  1. checked, uncheked, error
+  2. try-catch-finally, try with resource, throw, throws, thorwable
+  3. Exception handling in inheritance
+Serialisation
+  1. Externalise, Typereference, transient
+  2. serialisation in inheritance
+MultiThreading
+1. DeadLock, liveLock, race condition, how they got, how to avoid them.
+2. Thread Class, Runnable Interface, start() vs run(), join() vs yeld(), wait() vs sleep() 
+3. Synchronised, y wait() in Object not in thread class, y synchronized must for wait(), static synchronized, 
+4. Runnable,Callble,Future Object, Execute, ExecutorService, types, methods,  
+5. Atomic class, happens-before relation, 
+
+Collections
+  1. iterator: listiterator, fail safe, fail fast
+  2. collection: list, set, map
+  3. HashMap : Implementation, hashCollision, how constant time acheived with growing size, how get(), put() works internally
+  4. ArrayList: how dynamic size achieved?, 
+  5. ConcurrentMap vs HashTable, TreeSet Vs TreeMap, HashSet , LinkedList etc..
+String
+  1. String pool, String intern, y immutable, string buffer, stringbuilder
+  2. problems
+Design Patterns
+  1. Immutable class, class loaders, Solid principle with examples, 
+  1. Singleton pattern, lazy, eager, double lock, breaking ways, prevent ways
+  2. Other patterns
