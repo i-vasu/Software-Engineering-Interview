@@ -1,0 +1,1 @@
+SQL : DDL,DML,DTL,DCL, Index, JOINs, 
