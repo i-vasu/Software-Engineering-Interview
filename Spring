@@ -8,7 +8,7 @@ Spring Rest : MVC arch, requestMapping, controller vs restcontroller, pathVariab
 Spring JPA: Config related, Jpa , mapping, keys, Transaction, rollback, custom name/methods(@query,@param), pagining&sorting, hibernate
 
 Spring Cloud: microservices arch, load balancer, rate limiter,circuit breaker, event driven, msg queue, hystrix, eureka,zuul, 
-
+Soring Kafka : Kafka Arch, Topics, offset, delivery Semantics, annotations, class, 
 spring AOP:
 
 Spring Security: Authentication(UserDetailService, AuthenticationManager), Authorisation, CORS, 
