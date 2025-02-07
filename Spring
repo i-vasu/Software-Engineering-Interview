@@ -9,7 +9,8 @@ Spring JPA: Config related, Jpa , mapping, keys, Transaction, rollback, custom n
 
 Spring Cloud: microservices arch, load balancer, rate limiter,circuit breaker, event driven, msg queue, hystrix, eureka,zuul, 
 Soring Kafka : Kafka Arch, Topics, offset, delivery Semantics, annotations, class, 
-spring AOP:
+
+spring AOP: scattering, gathering, before/ after/around, aspect/joinpoint, annotations, proxies
 
 Spring Security: Authentication(UserDetailService, AuthenticationManager), Authorisation, CORS, 
 
