@@ -1,7 +1,7 @@
 Spring Core : Bean lifecycle/Management, Beanpostprocessor, inti(), @postconstruct, @predestroy(),bean scope, Dependency Injection, IoC, Application Context vs BeanFactory, Circular Dependency, BeanNotFOund, Beans from External Sources
 
 Spring Boot: Featutres, How Auto Config achieved, How Context Config achieved, Annotations
-Autowired, qualifier, primary, profiles, testing, exceptions, asyn execu & multi threading,
+Autowired, qualifier, primary, profiles, @propertySource, @value, testing, exceptions, asyn execu & multi threading,
 
 Spring Rest : MVC arch, requestMapping, controller vs restcontroller, pathVariable vs requestPAram, requestBody, REST Architecture
 
