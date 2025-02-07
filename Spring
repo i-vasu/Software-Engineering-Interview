@@ -12,5 +12,9 @@ Soring Kafka : Kafka Arch, Topics, offset, delivery Semantics, annotations, clas
 
 spring AOP: scattering, gathering, before/ after/around, aspect/joinpoint, annotations, proxies
 
+Spring testing: 
+  Integration: how to load applicationContext 
+  unit: 
+
 Spring Security: Authentication(UserDetailService, AuthenticationManager), Authorisation, CORS, 
 
