@@ -2,10 +2,10 @@ Java 8 to 17 features n updates : https://reflectoring.io/java-release-notes/
 
 Ref: grokking java intv
 
-Topics : 
+Topics : Functional Interface, Method Reference, lambda exp, optional class, sealed class, records, switch , toList(), 
 
 Basics
-  1. , Auto boxing, type safety, type casting, generics, type erasure
+  1. JIT vs AOT , Auto boxing, type safety, type casting, generics, type erasure
 OOPS
   1. abstract class vs interface, method overriding vs method overloading, inheritance , encapsulation
   2. Order of Execution, Parent to child referencing, method types, limitation etc, in inheritance
@@ -30,7 +30,7 @@ Collections
   4. ArrayList: how dynamic size achieved?, 
   5. ConcurrentMap vs HashTable, TreeSet Vs TreeMap, HashSet , LinkedList etc..
 String
-  1. String pool, String intern, y immutable, string buffer, stringbuilder
+  1. Compact String, String pool, String intern, y immutable, string buffer, stringbuilder
   2. problems
 Design Patterns
   1. Immutable class, class loaders, Solid principle with examples, 
