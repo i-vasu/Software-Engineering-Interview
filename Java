@@ -24,7 +24,7 @@ MultiThreading
 5. Atomic class, happens-before relation, 
 
 Collections
-  1. iterator: listiterator, fail safe, fail fast
+  1. iterator: listiterator, fail safe, fail fast, concurrentModificationException
   2. collection: list, set, map
   3. HashMap : Implementation, hashCollision, how constant time acheived with growing size, how get(), put() works internally
   4. ArrayList: how dynamic size achieved?, 
