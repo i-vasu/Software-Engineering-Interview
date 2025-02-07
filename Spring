@@ -5,7 +5,7 @@ Autowired, qualifier, primary, profiles, testing, exceptions, multi threading,
 
 Spring Rest : MVC arch, requestMapping, controller vs restcontroller, pathVariable vs requestPAram, requestBody, REST Architecture
 
-Spring JPA: Config related, Jpa , mapping, keys, custom name/methods(@query,@param), pagining&sorting
+Spring JPA: Config related, Jpa , mapping, keys, Transaction, rollback, custom name/methods(@query,@param), pagining&sorting, hibernate
 
 Spring Cloud: microservices arch, spring cloud features
 
