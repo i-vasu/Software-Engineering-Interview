@@ -1,21 +1,25 @@
-Spring Core : Bean lifecycle/Management, Beanpostprocessor, inti(), @postconstruct, @predestroy(),bean scope, Dependency Injection, IoC, Application Context vs BeanFactory, Circular Dependency, BeanNotFOund, Beans from External Sources
+Spring Core : Bean lifecycle/Management, Beanpostprocessor, init(), @postconstruct, @predestroy(),bean scope, Dependency Injection, IoC, Application Context vs BeanFactory, Circular Dependency, BeanNotFOund, Beans from External Sources
 
-Spring Boot: Featutres, How Auto Config achieved, How Context Config achieved, Annotations
-Autowired, qualifier, primary, profiles, @propertySource, @value,
-@import, testing, exceptions, asyn execu & multi threading,
 
+Spring Boot: Featutres,How Context Config/Auto-config achieved,conditional config, spring.factories, Annotations
+Autowired, qualifier, primary, profiles, @propertySource,@ConfigurationProperties ,@value,# vs $ , y @Bean methods can't be final, y @autowire wont work on primitives, 
+@import, WAR vs JAR, need for securing actuator endpoint, how to enable actuator endpoints,health indidcator, logging,  testing, exceptions, asyn execu & multi threading,
+y spring prefer unchecked excep, 
 Spring Rest : MVC arch, requestMapping, controller vs restcontroller, pathVariable vs requestPAram, requestBody, REST Architecture
 
-Spring JPA: Config related, Jpa , mapping, keys, Transaction, rollback, custom name/methods(@query,@param), pagining&sorting, hibernate
+Spring JPA: Config related, Jpa ,.sql files for default schema set up ,mapping, keys, Transaction, rollback, custom name/methods(@query,@param), write jpa's, jpa format, jpa keywords,,
+pagining&sorting, @prepersist, @postpersist, @entitygraph, EntityManager, OptimisticLockingFailureException, projections
 
-Spring Cloud: microservices arch, load balancer, rate limiter,circuit breaker, event driven, msg queue, hystrix, eureka,zuul, 
-Soring Kafka : Kafka Arch, Topics, offset, delivery Semantics, annotations, class, 
+Spring Cloud: microservices arch, svc disc/registration, config mngmnt, routing, svc to svc calls, load balancer, rate limiter,circuit breaker, event driven, msg queue, hystrix, eureka,zuul, 
+ribbon, feign, hystrix, cloub bus, eureka, zookeeper, zuul,
 
-spring AOP: scattering, gathering, before/ after/around, aspect/joinpoint, annotations, proxies
+Spring Kafka : Kafka Arch, Topics, offset, delivery Semantics, annotations, class, 
 
-Spring testing: 
-  Integration: how to load applicationContext 
-  unit: 
+spring AOP: scattering, gathering, proxies, limitations, before/ after/around/aterreturn/afterThrowing, aspect/joinpoint/pointcut/waeving, annotations
 
-Spring Security: Authentication(UserDetailService, AuthenticationManager), Authorisation, CORS, 
+Spring testing: what comes with starter pack,
+  Integration: how to load applicationContext(@ContextCofiguration vs @springApplicationConfiguration),@SpringBootTest, How to test web n jpa, how to get embedded db to test jpa,
+  unit: how to mock a bean exist in appContxt, how to write unit test,how to write a integration test
+
+Spring Security: Authentication(UserDetailService, AuthenticationManager), Authorisation(List<GrantedAuthorities>), CORS, filter chain, @preAuthorize, @Secured, principle, salting, passwordEncoder, 
 
