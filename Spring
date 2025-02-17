@@ -13,11 +13,11 @@ pagining&sorting, @prepersist, @postpersist, @entitygraph, EntityManager, Optimi
 Spring Cloud: microservices arch, svc disc/registration, config mngmnt, routing, svc to svc calls, load balancer, rate limiter,circuit breaker, event driven, msg queue, hystrix, eureka,zuul, 
 ribbon, feign, hystrix, cloub bus, eureka, zookeeper, zuul,
 
-Spring Kafka : Kafka Arch, Topics, offset, delivery Semantics, annotations, class, 
+Spring Kafka : Kafka Arch, components, how it achecies features(fault tolerance, high availabllity),offset, delivery Semantics, ways to handle desrialisation errors, Transactions, Kstreams,
 
 spring AOP: scattering, gathering, proxies, limitations, before/ after/around/aterreturn/afterThrowing, aspect/joinpoint/pointcut/waeving, annotations
 
-Spring testing: what comes with starter pack,
+Spring testing: what comes with starter pack, testcontainers
   Integration: how to load applicationContext(@ContextCofiguration vs @springApplicationConfiguration),@SpringBootTest, How to test web n jpa, how to get embedded db to test jpa,
   unit: how to mock a bean exist in appContxt, how to write unit test,how to write a integration test
 
