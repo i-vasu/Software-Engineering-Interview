@@ -31,3 +31,7 @@ Spring testing: what comes with starter pack, testcontainers
 Spring Security: Authentication(UserDetailService, AuthenticationManager), Authorisation(List<GrantedAuthorities>), CORS, securityfilterchain, custom filter(using oncePerRequestFilter), 
 @preAuthorize, @Secured, principle, salting, passwordEncoder, 
 
+
+
+Spring AI:
+
