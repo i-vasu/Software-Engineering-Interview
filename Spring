@@ -1,25 +1,33 @@
-Spring Core : Bean lifecycle/Management, Beanpostprocessor, init(), @postconstruct, @predestroy(),bean scope, Dependency Injection, IoC, Application Context vs BeanFactory, Circular Dependency, BeanNotFOund, Beans from External Sources
+Spring Core : Bean lifecycle/Management, Beanpostprocessor, init(), @postconstruct, @predestroy(),bean scope, Inherintence/nested in scoping, Dependency Injection, IoC,
+Application Context vs BeanFactory, Circular Dependency, BeanNotFOund, Beans from External Sources, exclude, conditional
 
+spring AOP: scattering, gathering, how AOP works, proxies,before/after/around/aterreturn/afterThrowing, aspect/joinpoint/pointcut/waeving, annotations
 
 Spring Boot: Featutres,How Context Config/Auto-config achieved,conditional config, spring.factories, Annotations
 Autowired, qualifier, primary, profiles, @propertySource,@ConfigurationProperties ,@value,# vs $ , y @Bean methods can't be final, y @autowire wont work on primitives, 
 @import, WAR vs JAR, need for securing actuator endpoint, how to enable actuator endpoints,health indidcator, logging,  testing, exceptions, asyn execu & multi threading,
 y spring prefer unchecked excep, 
-Spring Rest : MVC arch, requestMapping, controller vs restcontroller, pathVariable vs requestPAram, requestBody, REST Architecture
 
-Spring JPA: Config related, Jpa ,.sql files for default schema set up ,mapping, keys, Transaction, rollback, custom name/methods(@query,@param), write jpa's, jpa format, jpa keywords,,
-pagining&sorting, @prepersist, @postpersist, @entitygraph, EntityManager, OptimisticLockingFailureException, projections
+Spring Rest : MVC arch, requestMapping, controller vs restcontroller, pathVariable vs requestPAram, requestBody, 
+              REST Architecture,StatusCode response, how to observe/reduce load time,
 
-Spring Cloud: microservices arch, svc disc/registration, config mngmnt, routing, svc to svc calls, load balancer, rate limiter,circuit breaker, event driven, msg queue, hystrix, eureka,zuul, 
+Spring JPA: Config related, Jpa , .sql files for default schema set up ,mapping, keys, 
+Transaction, propagation,isolation,dirty read/non-repeatable read/phanthom read, rollback, 
+custom name/methods(@query,@param), write jpa's(derived Methods,customed method), jpa format, jpa keywords,,
+pagining&sorting, @prepersist, @postpersist, @entitygraph, EntityManager, OptimisticLockingFailureException, projections,views
+
+Spring Cloud: 
+      microservices arch, svc disc/registration, config mngmnt, routing, svc to svc calls, load balancer, rate limiter,circuit breaker, event driven, msg queue, hystrix, eureka,zuul, 
 ribbon, feign, hystrix, cloub bus, eureka, zookeeper, zuul,
 
-Spring Kafka : Kafka Arch, components, how it achecies features(fault tolerance, high availabllity),offset, delivery Semantics, ways to handle desrialisation errors, Transactions, Kstreams,
+Spring Kafka : Kafka Arch, components,responsibilities, how it achecies features(fault tolerance, high availabllity),offset, delivery Semantics, ways to handle desrialisation errors, 
+Transactions, Kstreams, binding,
 
-spring AOP: scattering, gathering, proxies, limitations, before/ after/around/aterreturn/afterThrowing, aspect/joinpoint/pointcut/waeving, annotations
 
 Spring testing: what comes with starter pack, testcontainers
   Integration: how to load applicationContext(@ContextCofiguration vs @springApplicationConfiguration),@SpringBootTest, How to test web n jpa, how to get embedded db to test jpa,
   unit: how to mock a bean exist in appContxt, how to write unit test,how to write a integration test
 
-Spring Security: Authentication(UserDetailService, AuthenticationManager), Authorisation(List<GrantedAuthorities>), CORS, filter chain, @preAuthorize, @Secured, principle, salting, passwordEncoder, 
+Spring Security: Authentication(UserDetailService, AuthenticationManager), Authorisation(List<GrantedAuthorities>), CORS, securityfilterchain, custom filter(using oncePerRequestFilter), 
+@preAuthorize, @Secured, principle, salting, passwordEncoder, 
 
